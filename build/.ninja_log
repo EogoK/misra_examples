@@ -1,0 +1,5 @@
+# ninja log v5
+1	877	1712599452166875307	CMakeFiles/misra_examples.dir/include/misra_examples/abstract_misra.cpp.o	a80bf547f902520d
+755	899	1712600507974428274	misra_examples	3fb1a5d4e12ad9c1
+2	539	1712600213844856548	CMakeFiles/misra_examples.dir/include/misra_examples/decorator.cpp.o	da11e9ed1ef71930
+1	752	1712600507826423388	CMakeFiles/misra_examples.dir/include/misra_examples/decorator_misra.cpp.o	4484ea772918b907

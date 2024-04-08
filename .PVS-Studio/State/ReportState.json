@@ -1,26 +1,26 @@
 {
   "json": [
     {
-      "code": "V2575",
+      "code": "V2511",
       "falseAlarm": false,
-      "level": 1,
-      "message": "The global namespace should only contain 'main', namespace declarations and extern 'C' declaration.",
+      "level": 2,
+      "message": "The 'delete' operator should not be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 6,
-          "endLine": 6,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
+          "line": 30,
+          "endLine": 30,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
           "navigation": {
-            "currentLine": 12463563,
-            "previousLine": 562600,
-            "nextLine": 0,
+            "currentLine": 142752201,
+            "previousLine": 123,
+            "nextLine": 125,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-7-3-1",
+      "sastId": "MISRA-CPP-18-4-1",
       "favorite": false,
       "projects": [],
       "id": 0
@@ -29,18 +29,18 @@
       "code": "V2511",
       "falseAlarm": false,
       "level": 2,
-      "message": "The 'new' operator should not be used.",
+      "message": "The 'delete' operator should not be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 118,
-          "endLine": 118,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
+          "line": 34,
+          "endLine": 34,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
           "navigation": {
-            "currentLine": -934926741,
+            "currentLine": 142752201,
             "previousLine": 123,
-            "nextLine": 125,
+            "nextLine": 1450427037,
             "columns": 0
           }
         }
@@ -51,26 +51,26 @@
       "id": 1
     },
     {
-      "code": "V2511",
+      "code": "V2547",
       "falseAlarm": false,
-      "level": 2,
-      "message": "The 'new' operator should not be used.",
+      "level": 1,
+      "message": "The return value of non-void function 'swap' should be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 123,
-          "endLine": 123,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
+          "line": 73,
+          "endLine": 73,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
           "navigation": {
-            "currentLine": 1109553207,
+            "currentLine": 152643395,
             "previousLine": 123,
             "nextLine": 125,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-18-4-1",
+      "sastId": "MISRA-CPP-0-1-7",
       "favorite": false,
       "projects": [],
       "id": 2
@@ -84,13 +84,13 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 132,
-          "endLine": 132,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
+          "line": 83,
+          "endLine": 83,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
           "navigation": {
-            "currentLine": -923294101,
+            "currentLine": -69867006,
             "previousLine": 123,
-            "nextLine": 125,
+            "nextLine": -510427265,
             "columns": 0
           }
         }
@@ -109,13 +109,13 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 137,
-          "endLine": 137,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
+          "line": 88,
+          "endLine": 88,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
           "navigation": {
-            "currentLine": 1202614327,
-            "previousLine": 123,
-            "nextLine": 125,
+            "currentLine": -1439557741,
+            "previousLine": -1018940266,
+            "nextLine": 1692267888,
             "columns": 0
           }
         }
@@ -129,18 +129,18 @@
       "code": "V2511",
       "falseAlarm": false,
       "level": 2,
-      "message": "The 'new' operator should not be used.",
+      "message": "The 'delete' operator should not be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 145,
-          "endLine": 145,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
+          "line": 90,
+          "endLine": 90,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
           "navigation": {
-            "currentLine": 914988097,
-            "previousLine": -1043608432,
-            "nextLine": 966575317,
+            "currentLine": 560091,
+            "previousLine": 1692267888,
+            "nextLine": 125,
             "columns": 0
           }
         }
@@ -151,433 +151,28 @@
       "id": 5
     },
     {
-      "code": "V2511",
+      "code": "V829",
       "falseAlarm": false,
-      "level": 2,
-      "message": "The 'new' operator should not be used.",
+      "level": 1,
+      "message": "Lifetime of the heap-allocated variable 'context' is limited to the current function's scope. Consider allocating it on the stack instead.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 153,
-          "endLine": 153,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
+          "line": 83,
+          "endLine": 83,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
           "navigation": {
-            "currentLine": 938122305,
-            "previousLine": -1043681392,
-            "nextLine": 965407957,
+            "currentLine": -69867006,
+            "previousLine": 123,
+            "nextLine": -510427265,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-18-4-1",
       "favorite": false,
       "projects": [],
       "id": 6
-    },
-    {
-      "code": "V599",
-      "cwe": 1079,
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The virtual destructor is not present, although the 'PizzaFactory' class contains virtual functions.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 177,
-          "endLine": 177,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
-          "navigation": {
-            "currentLine": 71768345,
-            "previousLine": 8634,
-            "nextLine": 1148291473,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "CERT-OOP52-CPP",
-      "favorite": false,
-      "projects": [],
-      "id": 7
-    },
-    {
-      "code": "V2511",
-      "falseAlarm": false,
-      "level": 2,
-      "message": "The 'delete' operator should not be used.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 177,
-          "endLine": 177,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
-          "navigation": {
-            "currentLine": 71768345,
-            "previousLine": 8634,
-            "nextLine": 1148291473,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-18-4-1",
-      "favorite": false,
-      "projects": [],
-      "id": 8
-    },
-    {
-      "code": "V599",
-      "cwe": 1079,
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The virtual destructor is not present, although the 'Pizza' class contains virtual functions.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 178,
-          "endLine": 178,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
-          "navigation": {
-            "currentLine": 1148291473,
-            "previousLine": 71768345,
-            "nextLine": 596155411,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "CERT-OOP52-CPP",
-      "favorite": false,
-      "projects": [],
-      "id": 9
-    },
-    {
-      "code": "V2511",
-      "falseAlarm": false,
-      "level": 2,
-      "message": "The 'delete' operator should not be used.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 178,
-          "endLine": 178,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
-          "navigation": {
-            "currentLine": 1148291473,
-            "previousLine": 71768345,
-            "nextLine": 596155411,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-18-4-1",
-      "favorite": false,
-      "projects": [],
-      "id": 10
-    },
-    {
-      "code": "V599",
-      "cwe": 1079,
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The virtual destructor is not present, although the 'Pizza' class contains virtual functions.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 179,
-          "endLine": 179,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
-          "navigation": {
-            "currentLine": 596155411,
-            "previousLine": 1148291473,
-            "nextLine": 71687961,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "CERT-OOP52-CPP",
-      "favorite": false,
-      "projects": [],
-      "id": 11
-    },
-    {
-      "code": "V2511",
-      "falseAlarm": false,
-      "level": 2,
-      "message": "The 'delete' operator should not be used.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 179,
-          "endLine": 179,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
-          "navigation": {
-            "currentLine": 596155411,
-            "previousLine": 1148291473,
-            "nextLine": 71687961,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-18-4-1",
-      "favorite": false,
-      "projects": [],
-      "id": 12
-    },
-    {
-      "code": "V599",
-      "cwe": 1079,
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The virtual destructor is not present, although the 'PizzaFactory' class contains virtual functions.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 180,
-          "endLine": 180,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
-          "navigation": {
-            "currentLine": 71687961,
-            "previousLine": 596155411,
-            "nextLine": 1147005329,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "CERT-OOP52-CPP",
-      "favorite": false,
-      "projects": [],
-      "id": 13
-    },
-    {
-      "code": "V2511",
-      "falseAlarm": false,
-      "level": 2,
-      "message": "The 'delete' operator should not be used.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 180,
-          "endLine": 180,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
-          "navigation": {
-            "currentLine": 71687961,
-            "previousLine": 596155411,
-            "nextLine": 1147005329,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-18-4-1",
-      "favorite": false,
-      "projects": [],
-      "id": 14
-    },
-    {
-      "code": "V599",
-      "cwe": 1079,
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The virtual destructor is not present, although the 'Pizza' class contains virtual functions.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 181,
-          "endLine": 181,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
-          "navigation": {
-            "currentLine": 1147005329,
-            "previousLine": 71687961,
-            "nextLine": 585866259,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "CERT-OOP52-CPP",
-      "favorite": false,
-      "projects": [],
-      "id": 15
-    },
-    {
-      "code": "V2511",
-      "falseAlarm": false,
-      "level": 2,
-      "message": "The 'delete' operator should not be used.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 181,
-          "endLine": 181,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
-          "navigation": {
-            "currentLine": 1147005329,
-            "previousLine": 71687961,
-            "nextLine": 585866259,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-18-4-1",
-      "favorite": false,
-      "projects": [],
-      "id": 16
-    },
-    {
-      "code": "V599",
-      "cwe": 1079,
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The virtual destructor is not present, although the 'Pizza' class contains virtual functions.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 182,
-          "endLine": 182,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
-          "navigation": {
-            "currentLine": 585866259,
-            "previousLine": 1147005329,
-            "nextLine": 0,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "CERT-OOP52-CPP",
-      "favorite": false,
-      "projects": [],
-      "id": 17
-    },
-    {
-      "code": "V2511",
-      "falseAlarm": false,
-      "level": 2,
-      "message": "The 'delete' operator should not be used.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 182,
-          "endLine": 182,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
-          "navigation": {
-            "currentLine": 585866259,
-            "previousLine": 1147005329,
-            "nextLine": 0,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-18-4-1",
-      "favorite": false,
-      "projects": [],
-      "id": 18
-    },
-    {
-      "code": "V829",
-      "falseAlarm": false,
-      "level": 1,
-      "message": "Lifetime of the heap-allocated variable 'chicagoFactory' is limited to the current function's scope. Consider allocating it on the stack instead.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 152,
-          "endLine": 152,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
-          "navigation": {
-            "currentLine": -1043681392,
-            "previousLine": 277697424,
-            "nextLine": 938122305,
-            "columns": 0
-          }
-        }
-      ],
-      "favorite": false,
-      "projects": [],
-      "id": 19
-    },
-    {
-      "code": "V829",
-      "falseAlarm": false,
-      "level": 1,
-      "message": "Lifetime of the heap-allocated variable 'newYorkFactory' is limited to the current function's scope. Consider allocating it on the stack instead.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 144,
-          "endLine": 144,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
-          "navigation": {
-            "currentLine": -1043608432,
-            "previousLine": 278999952,
-            "nextLine": 914988097,
-            "columns": 0
-          }
-        }
-      ],
-      "favorite": false,
-      "projects": [],
-      "id": 20
-    },
-    {
-      "code": "V2575",
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The global namespace should only contain 'main', namespace declarations and extern 'C' declaration.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 107,
-          "endLine": 107,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
-          "navigation": {
-            "currentLine": 9381721,
-            "previousLine": 1119111319,
-            "nextLine": 5816,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-7-3-1",
-      "favorite": false,
-      "projects": [],
-      "id": 21
-    },
-    {
-      "code": "V2575",
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The global namespace should only contain 'main', namespace declarations and extern 'C' declaration.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 84,
-          "endLine": 84,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
-          "navigation": {
-            "currentLine": -1178349665,
-            "previousLine": 1098239517,
-            "nextLine": 5816,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-7-3-1",
-      "favorite": false,
-      "projects": [],
-      "id": 22
     },
     {
       "code": "V2575",
@@ -590,11 +185,11 @@
           "endColumn": 1,
           "line": 62,
           "endLine": 62,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
           "navigation": {
-            "currentLine": -560210840,
-            "previousLine": 137295060,
-            "nextLine": 5816,
+            "currentLine": 125303585,
+            "previousLine": 193,
+            "nextLine": 123,
             "columns": 0
           }
         }
@@ -602,7 +197,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 23
+      "id": 7
     },
     {
       "code": "V2575",
@@ -613,38 +208,13 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 37,
-          "endLine": 37,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
+          "line": 48,
+          "endLine": 48,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
           "navigation": {
-            "currentLine": -1983656055,
-            "previousLine": 1103384093,
-            "nextLine": 5816,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-7-3-1",
-      "favorite": false,
-      "projects": [],
-      "id": 24
-    },
-    {
-      "code": "V2575",
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The global namespace should only contain 'main', namespace declarations and extern 'C' declaration.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 8,
-          "endLine": 8,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
-          "navigation": {
-            "currentLine": 73297,
+            "currentLine": 125205281,
             "previousLine": 0,
-            "nextLine": 5816,
+            "nextLine": 123,
             "columns": 0
           }
         }
@@ -652,7 +222,7 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 25
+      "id": 8
     },
     {
       "code": "V2575",
@@ -663,63 +233,13 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 114,
-          "endLine": 114,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
+          "line": 18,
+          "endLine": 18,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
           "navigation": {
-            "currentLine": 967646282,
-            "previousLine": 275854227,
-            "nextLine": 5816,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-7-3-1",
-      "favorite": false,
-      "projects": [],
-      "id": 26
-    },
-    {
-      "code": "V2575",
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The global namespace should only contain 'main', namespace declarations and extern 'C' declaration.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 128,
-          "endLine": 128,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
-          "navigation": {
-            "currentLine": 967646860,
-            "previousLine": 274551699,
-            "nextLine": 5816,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-7-3-1",
-      "favorite": false,
-      "projects": [],
-      "id": 27
-    },
-    {
-      "code": "V2575",
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The global namespace should only contain 'main', namespace declarations and extern 'C' declaration.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 15,
-          "endLine": 15,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
-          "navigation": {
-            "currentLine": 412867690,
+            "currentLine": 145904,
             "previousLine": 0,
-            "nextLine": 5816,
+            "nextLine": 123,
             "columns": 0
           }
         }
@@ -727,7 +247,57 @@
       "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
-      "id": 28
+      "id": 9
+    },
+    {
+      "code": "V2575",
+      "falseAlarm": false,
+      "level": 1,
+      "message": "The global namespace should only contain 'main', namespace declarations and extern 'C' declaration.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 10,
+          "endLine": 10,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
+          "navigation": {
+            "currentLine": 294739,
+            "previousLine": 0,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-CPP-7-3-1",
+      "favorite": false,
+      "projects": [],
+      "id": 10
+    },
+    {
+      "code": "V2575",
+      "falseAlarm": false,
+      "level": 1,
+      "message": "The global namespace should only contain 'main', namespace declarations and extern 'C' declaration.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 81,
+          "endLine": 81,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
+          "navigation": {
+            "currentLine": 2660701,
+            "previousLine": 0,
+            "nextLine": 123,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-CPP-7-3-1",
+      "favorite": false,
+      "projects": [],
+      "id": 11
     }
   ]
 }
