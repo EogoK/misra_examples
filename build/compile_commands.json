@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/rubeas/mnt/ssd/Projects/misra_examples/build",
-  "command": "/usr/bin/g++ -g -o CMakeFiles/misra_examples.dir/include/misra_examples/decorator.cpp.o -c /home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/decorator.cpp",
-  "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/decorator.cpp"
+  "command": "/usr/bin/g++ -g -o CMakeFiles/misra_examples.dir/include/misra_examples/abstract.cpp.o -c /home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp",
+  "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/abstract.cpp"
 }
 ]
