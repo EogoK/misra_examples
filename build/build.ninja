@@ -217,8 +217,8 @@ build ContinuousSubmit: phony CMakeFiles/ContinuousSubmit
 
 build cmake_object_order_depends_target_misra_examples: phony || CMakeFiles/misra_examples.dir
 
-build CMakeFiles/misra_examples.dir/include/misra_examples/strategy_misra.cpp.o: CXX_COMPILER__misra_examples_Debug /home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy_misra.cpp || cmake_object_order_depends_target_misra_examples
-  DEP_FILE = CMakeFiles/misra_examples.dir/include/misra_examples/strategy_misra.cpp.o.d
+build CMakeFiles/misra_examples.dir/include/misra_examples/strategy.cpp.o: CXX_COMPILER__misra_examples_Debug /home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp || cmake_object_order_depends_target_misra_examples
+  DEP_FILE = CMakeFiles/misra_examples.dir/include/misra_examples/strategy.cpp.o.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/misra_examples.dir
   OBJECT_FILE_DIR = CMakeFiles/misra_examples.dir/include/misra_examples
@@ -231,7 +231,7 @@ build CMakeFiles/misra_examples.dir/include/misra_examples/strategy_misra.cpp.o:
 #############################################
 # Link the executable misra_examples
 
-build misra_examples: CXX_EXECUTABLE_LINKER__misra_examples_Debug CMakeFiles/misra_examples.dir/include/misra_examples/strategy_misra.cpp.o
+build misra_examples: CXX_EXECUTABLE_LINKER__misra_examples_Debug CMakeFiles/misra_examples.dir/include/misra_examples/strategy.cpp.o
   FLAGS = -g
   LINK_FLAGS = -rdynamic
   OBJECT_DIR = CMakeFiles/misra_examples.dir

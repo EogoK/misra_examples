@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/rubeas/mnt/ssd/Projects/misra_examples/build",
-  "command": "/usr/bin/g++ -g -o CMakeFiles/misra_examples.dir/include/misra_examples/strategy_misra.cpp.o -c /home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy_misra.cpp",
-  "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy_misra.cpp"
+  "command": "/usr/bin/g++ -g -o CMakeFiles/misra_examples.dir/include/misra_examples/strategy.cpp.o -c /home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
+  "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp"
 }
 ]
