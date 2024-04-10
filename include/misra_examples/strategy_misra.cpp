@@ -23,16 +23,16 @@ private:
     std::unique_ptr<Strategy> strategy_;
 
 public:
-    Context(std::unique_ptr<Strategy>& strategy) : strategy_(std::move(strategy))
+    Context(std::unique_ptr<Strategy> strategy) : strategy_(std::move(strategy))
     {
     }
     ~Context()
     {
-        this->strategy_.release();
+        this->strategy_.reset();
     }
-    void set_strategy(std::unique_ptr<Strategy>& strategy)
+    void set_strategy(std::unique_ptr<Strategy> strategy)
     {
-        this->strategy_.release();
+        this->strategy_.reset();
         this->strategy_ = std::move(strategy);
     }
 
@@ -71,7 +71,7 @@ extern "C" class ConcreteStrategyB : public Strategy
         std::sort(std::begin(result), std::end(result));
         for (int i = 0; i < result.size() / 2; i++)
         {
-            std::swap(result[i], result[result.size() - i - 1]);
+            (void)std::swap(result[i], result[result.size() - i - 1]);
         }
 
         return result;
@@ -79,16 +79,16 @@ extern "C" class ConcreteStrategyB : public Strategy
 };
 
 
-void ClientCode()
+extern "C" void ClientCode()
 {
-    auto context = std::make_unique<Context>(std::unique_ptr<Strategy>{std::make_unique<ConcreteStrategyA>()});
+    auto context = std::make_unique<Context>(std::move(std::unique_ptr<Strategy>{std::make_unique<ConcreteStrategyA>()}));
     std::cout << "Client: Strategy is set to normal sorting.\n";
     context->DoSomeBusinessLogic();
     std::cout << "\n";
     std::cout << "Client: Strategy is set to reverse sorting.\n";
     auto strategy_b = std::unique_ptr<Strategy>{std::make_unique<ConcreteStrategyB>()};
 
-    context->set_strategy(strategy_b);
+    context->set_strategy(std::move(strategy_b));
     context->DoSomeBusinessLogic();
 }
 

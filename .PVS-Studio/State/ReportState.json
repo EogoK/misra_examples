@@ -1,76 +1,75 @@
 {
   "json": [
     {
-      "code": "V2511",
+      "code": "V2009",
       "falseAlarm": false,
-      "level": 2,
-      "message": "The 'delete' operator should not be used.",
+      "level": 3,
+      "message": "Consider rendering the 'component' pointer as a pointer to const.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 30,
-          "endLine": 30,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
+          "line": 56,
+          "endLine": 56,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/decorator.cpp",
           "navigation": {
-            "currentLine": 142752201,
-            "previousLine": 123,
-            "nextLine": 125,
+            "currentLine": -1860729008,
+            "previousLine": 0,
+            "nextLine": 526322037,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-18-4-1",
       "favorite": false,
       "projects": [],
       "id": 0
     },
     {
-      "code": "V2511",
+      "code": "V2558",
       "falseAlarm": false,
-      "level": 2,
-      "message": "The 'delete' operator should not be used.",
+      "level": 1,
+      "message": "The 'component' arguments should be declared as pointer to 'const' types since these arguments were not modified.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 34,
-          "endLine": 34,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
+          "line": 56,
+          "endLine": 56,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/decorator.cpp",
           "navigation": {
-            "currentLine": 142752201,
-            "previousLine": 123,
-            "nextLine": 1450427037,
+            "currentLine": -1860729008,
+            "previousLine": 0,
+            "nextLine": 526322037,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-18-4-1",
+      "sastId": "MISRA-CPP-7-1-2",
       "favorite": false,
       "projects": [],
       "id": 1
     },
     {
-      "code": "V2547",
+      "code": "V2511",
       "falseAlarm": false,
-      "level": 1,
-      "message": "The return value of non-void function 'swap' should be used.",
+      "level": 2,
+      "message": "The 'new' operator should not be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 73,
-          "endLine": 73,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
+          "line": 62,
+          "endLine": 62,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/decorator.cpp",
           "navigation": {
-            "currentLine": 152643395,
-            "previousLine": 123,
-            "nextLine": 125,
+            "currentLine": -1707597204,
+            "previousLine": 0,
+            "nextLine": 1601461580,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-0-1-7",
+      "sastId": "MISRA-CPP-18-4-1",
       "favorite": false,
       "projects": [],
       "id": 2
@@ -84,13 +83,13 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 83,
-          "endLine": 83,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
+          "line": 67,
+          "endLine": 67,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/decorator.cpp",
           "navigation": {
-            "currentLine": -69867006,
-            "previousLine": 123,
-            "nextLine": -510427265,
+            "currentLine": 1908847383,
+            "previousLine": 0,
+            "nextLine": 476830130,
             "columns": 0
           }
         }
@@ -109,13 +108,13 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 88,
-          "endLine": 88,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
+          "line": 68,
+          "endLine": 68,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/decorator.cpp",
           "navigation": {
-            "currentLine": -1439557741,
-            "previousLine": -1018940266,
-            "nextLine": 1692267888,
+            "currentLine": 476830130,
+            "previousLine": 1908847383,
+            "nextLine": 2052701588,
             "columns": 0
           }
         }
@@ -134,13 +133,13 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 90,
-          "endLine": 90,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
+          "line": 73,
+          "endLine": 73,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/decorator.cpp",
           "navigation": {
-            "currentLine": 560091,
-            "previousLine": 1692267888,
-            "nextLine": 125,
+            "currentLine": 278897,
+            "previousLine": 0,
+            "nextLine": 4477833,
             "columns": 0
           }
         }
@@ -151,125 +150,123 @@
       "id": 5
     },
     {
-      "code": "V829",
+      "code": "V2511",
       "falseAlarm": false,
-      "level": 1,
-      "message": "Lifetime of the heap-allocated variable 'context' is limited to the current function's scope. Consider allocating it on the stack instead.",
+      "level": 2,
+      "message": "The 'delete' operator should not be used.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
-          "line": 83,
-          "endLine": 83,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
+          "line": 74,
+          "endLine": 74,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/decorator.cpp",
           "navigation": {
-            "currentLine": -69867006,
-            "previousLine": 123,
-            "nextLine": -510427265,
+            "currentLine": 4477833,
+            "previousLine": 278897,
+            "nextLine": 4477839,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-CPP-18-4-1",
+      "favorite": false,
+      "projects": [],
+      "id": 6
+    },
+    {
+      "code": "V2511",
+      "falseAlarm": false,
+      "level": 2,
+      "message": "The 'delete' operator should not be used.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 75,
+          "endLine": 75,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/decorator.cpp",
+          "navigation": {
+            "currentLine": 4477839,
+            "previousLine": 4477833,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-CPP-18-4-1",
+      "favorite": false,
+      "projects": [],
+      "id": 7
+    },
+    {
+      "code": "V829",
+      "falseAlarm": false,
+      "level": 1,
+      "message": "Lifetime of the heap-allocated variable 'decorator2' is limited to the current function's scope. Consider allocating it on the stack instead.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 68,
+          "endLine": 68,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/decorator.cpp",
+          "navigation": {
+            "currentLine": 476830130,
+            "previousLine": 1908847383,
+            "nextLine": 2052701588,
             "columns": 0
           }
         }
       ],
       "favorite": false,
       "projects": [],
-      "id": 6
+      "id": 8
     },
     {
-      "code": "V2575",
+      "code": "V829",
       "falseAlarm": false,
       "level": 1,
-      "message": "The global namespace should only contain 'main', namespace declarations and extern 'C' declaration.",
+      "message": "Lifetime of the heap-allocated variable 'decorator1' is limited to the current function's scope. Consider allocating it on the stack instead.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 67,
+          "endLine": 67,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/decorator.cpp",
+          "navigation": {
+            "currentLine": 1908847383,
+            "previousLine": 0,
+            "nextLine": 476830130,
+            "columns": 0
+          }
+        }
+      ],
+      "favorite": false,
+      "projects": [],
+      "id": 9
+    },
+    {
+      "code": "V829",
+      "falseAlarm": false,
+      "level": 1,
+      "message": "Lifetime of the heap-allocated variable 'simple' is limited to the current function's scope. Consider allocating it on the stack instead.",
       "positions": [
         {
           "column": 1,
           "endColumn": 1,
           "line": 62,
           "endLine": 62,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/decorator.cpp",
           "navigation": {
-            "currentLine": 125303585,
-            "previousLine": 193,
-            "nextLine": 123,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-7-3-1",
-      "favorite": false,
-      "projects": [],
-      "id": 7
-    },
-    {
-      "code": "V2575",
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The global namespace should only contain 'main', namespace declarations and extern 'C' declaration.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 48,
-          "endLine": 48,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
-          "navigation": {
-            "currentLine": 125205281,
+            "currentLine": -1707597204,
             "previousLine": 0,
-            "nextLine": 123,
+            "nextLine": 1601461580,
             "columns": 0
           }
         }
       ],
-      "sastId": "MISRA-CPP-7-3-1",
-      "favorite": false,
-      "projects": [],
-      "id": 8
-    },
-    {
-      "code": "V2575",
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The global namespace should only contain 'main', namespace declarations and extern 'C' declaration.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 18,
-          "endLine": 18,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
-          "navigation": {
-            "currentLine": 145904,
-            "previousLine": 0,
-            "nextLine": 123,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-7-3-1",
-      "favorite": false,
-      "projects": [],
-      "id": 9
-    },
-    {
-      "code": "V2575",
-      "falseAlarm": false,
-      "level": 1,
-      "message": "The global namespace should only contain 'main', namespace declarations and extern 'C' declaration.",
-      "positions": [
-        {
-          "column": 1,
-          "endColumn": 1,
-          "line": 10,
-          "endLine": 10,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
-          "navigation": {
-            "currentLine": 294739,
-            "previousLine": 0,
-            "nextLine": 123,
-            "columns": 0
-          }
-        }
-      ],
-      "sastId": "MISRA-CPP-7-3-1",
       "favorite": false,
       "projects": [],
       "id": 10
@@ -283,13 +280,13 @@
         {
           "column": 1,
           "endColumn": 1,
-          "line": 81,
-          "endLine": 81,
-          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/strategy.cpp",
+          "line": 46,
+          "endLine": 46,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/decorator.cpp",
           "navigation": {
-            "currentLine": 2660701,
+            "currentLine": 1396959747,
             "previousLine": 0,
-            "nextLine": 123,
+            "nextLine": 5816,
             "columns": 0
           }
         }
@@ -298,6 +295,131 @@
       "favorite": false,
       "projects": [],
       "id": 11
+    },
+    {
+      "code": "V2575",
+      "falseAlarm": false,
+      "level": 1,
+      "message": "The global namespace should only contain 'main', namespace declarations and extern 'C' declaration.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 22,
+          "endLine": 22,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/decorator.cpp",
+          "navigation": {
+            "currentLine": -905982318,
+            "previousLine": 0,
+            "nextLine": 45270,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-CPP-7-3-1",
+      "favorite": false,
+      "projects": [],
+      "id": 12
+    },
+    {
+      "code": "V2575",
+      "falseAlarm": false,
+      "level": 1,
+      "message": "The global namespace should only contain 'main', namespace declarations and extern 'C' declaration.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 15,
+          "endLine": 15,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/decorator.cpp",
+          "navigation": {
+            "currentLine": 787472203,
+            "previousLine": 0,
+            "nextLine": 5816,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-CPP-7-3-1",
+      "favorite": false,
+      "projects": [],
+      "id": 13
+    },
+    {
+      "code": "V2575",
+      "falseAlarm": false,
+      "level": 1,
+      "message": "The global namespace should only contain 'main', namespace declarations and extern 'C' declaration.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 9,
+          "endLine": 9,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/decorator.cpp",
+          "navigation": {
+            "currentLine": 1166979,
+            "previousLine": 0,
+            "nextLine": 5816,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-CPP-7-3-1",
+      "favorite": false,
+      "projects": [],
+      "id": 14
+    },
+    {
+      "code": "V2575",
+      "falseAlarm": false,
+      "level": 1,
+      "message": "The global namespace should only contain 'main', namespace declarations and extern 'C' declaration.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 56,
+          "endLine": 56,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/decorator.cpp",
+          "navigation": {
+            "currentLine": -1860729008,
+            "previousLine": 0,
+            "nextLine": 526322037,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-CPP-7-3-1",
+      "favorite": false,
+      "projects": [],
+      "id": 15
+    },
+    {
+      "code": "V2575",
+      "falseAlarm": false,
+      "level": 1,
+      "message": "The global namespace should only contain 'main', namespace declarations and extern 'C' declaration.",
+      "positions": [
+        {
+          "column": 1,
+          "endColumn": 1,
+          "line": 36,
+          "endLine": 36,
+          "file": "/home/rubeas/mnt/ssd/Projects/misra_examples/include/misra_examples/decorator.cpp",
+          "navigation": {
+            "currentLine": 1397090819,
+            "previousLine": 0,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "sastId": "MISRA-CPP-7-3-1",
+      "favorite": false,
+      "projects": [],
+      "id": 16
     }
   ]
 }
